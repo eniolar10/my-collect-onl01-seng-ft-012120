@@ -1,7 +1,7 @@
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-def name (array)
+names = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+def array (names)
   
-my_collect(array) do |name|
+my_collect(names) do |name|
   name.split(" ").first
 end
 
